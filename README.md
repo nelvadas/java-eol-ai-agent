@@ -53,5 +53,4 @@ The [command.ipynb](./python/commands.ipynb) is exploring various agentic option
 
 ## Contributions
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-🔗 License: MIT | 📜 API Reference: Oracle Java Releases API
 Let me know if you want any refinements! 🚀
