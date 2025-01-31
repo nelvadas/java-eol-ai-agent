@@ -39,16 +39,15 @@ INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1
 ...
 query:  What is the Oracle EOL Support date for Java 23.0.2?
 response:The Oracle EOL (End of Life) Support date for Java 23.0.2 is March 17, 2025.
-
+```
 
 The [command.ipynb](./python/commands.ipynb) is exploring various agentic options like Executor Framework and langgraph react agents.
 
 
 ## Java Version
 
+(coming soon)
 
-
-##  Java
 
 
 
