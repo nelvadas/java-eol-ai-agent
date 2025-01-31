@@ -76,6 +76,6 @@ query = f" What is the Oracle EOL Support date for Java {args.jdk}?"
 
 logging.info(f"jdk={args.jdk}")
 messages = agent.invoke({"messages": [("human", query)]})
-print(f" query: {query} \n  response:{messages['messages'][-1].content}")
+print(f"query: {query} \nresponse:{messages['messages'][-1].content}")
 
 

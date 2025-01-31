@@ -18,10 +18,30 @@ cd python
 Install requirements
 ```sh
 pip install -r requirements.txt
-````
+```
+Run a sample
+
+```sh
+java-eol-ai-agent/python on  main [!] via 🐍 v3.12.4 on ☁️  (us-east-2)
+❯ python java-eol.py -java 8
+INFO:root:jdk=8
+...
+ query:  What is the Oracle EOL Support date for Java 8?
+response:The Oracle EOL (End of Life) Support date for Java 8 is December 31, 2030.
+
+```
+
+```sh
+java-eol-ai-agent/python on  main [!] via 🐍 v3.12.4 on ☁️  (us-east-2)
+❯ python java-eol.py -java 23.0.2
+INFO:root:jdk=23.0.2
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+...
+query:  What is the Oracle EOL Support date for Java 23.0.2?
+response:The Oracle EOL (End of Life) Support date for Java 23.0.2 is March 17, 2025.
 
 
-
+The [command.ipynb](./python/commands.ipynb) is exploring various agentic options like Executor Framework and langgraph react agents.
 
 
 ## Java Version
